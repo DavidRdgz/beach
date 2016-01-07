@@ -1,6 +1,6 @@
 package com.example.server
 
-import com.example.{NewSensor, Sensor}
+import com.example.{NewSensor, Sensor, Buoy, NewBuoy}
 import akka.actor.Actor
 import akka.actor.{Props, Actor, ActorSystem}
 import spray.http.HttpHeaders.Authorization
@@ -9,6 +9,7 @@ import spray.routing._
 import spray.http._
 import spray.routing.authentication.{UserPass, BasicUserContext, UserPassAuthenticator, BasicAuth}
 import scala.concurrent.{Promise, Future}
+import scala.io.Source
 
 // we don't implement our route structure directly in the service actor because
 // we want to be able to test it independently, without having to spin up an actor
@@ -24,14 +25,14 @@ class ApiActor extends Actor with Api {
   def receive = runRoute(this.route)
 }
 
-trait Api extends ApiService with UserAccountService {
+trait Api extends ApiPrivateService with ApiPublicService {
   lazy val route = {
-    apiRoute ~ userRoute
+    pathPrefix("private") {apiPrivateRoute} ~ pathPrefix("public") {apiPublicRoute}
   }
 }
 
 // this trait defines our service behavior independently from the service actor
-trait ApiService extends HttpService {
+trait ApiPrivateService extends HttpService {
   var plentyOfSensors = Sensor.sensors
 
   def getJson(route: Route) = get {
@@ -42,7 +43,7 @@ trait ApiService extends HttpService {
     case Authorization(BasicHttpCredentials(user, _)) =>  user
   }
 
-  lazy val apiRoute =
+  lazy val apiPrivateRoute =
     path("up") {
         get {
           userName { user =>
@@ -92,12 +93,20 @@ trait ApiService extends HttpService {
     }
 }
 
-trait UserAccountService extends HttpService {
-  lazy val userRoute =
-    path("userProfile") {
-      get {
+
+
+trait ApiPublicService extends HttpService {
+  var plentyOfBuoy = Buoy.sensors
+
+  def getJson2(route: Route) = get {
+    respondWithMediaType(MediaTypes.`application/json`) {route}
+  }
+
+  lazy val apiPublicRoute =
+    path("buoy") {
+      getJson2 {
         complete {
-          "User up!"
+          Buoy.toJson(plentyOfBuoy)
         }
       }
     }
