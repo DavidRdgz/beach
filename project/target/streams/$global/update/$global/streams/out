@@ -1,11 +1,11 @@
-[info] Updating {file:/Users/galois/Workspace/github/spray-template/project/}spray-template-build...
-[debug] :: resolving dependencies :: default#spray-template-build;0.1-SNAPSHOT
+[info] Updating {file:/Users/galois/Workspace/github/beach/project/}beach-build...
+[debug] :: resolving dependencies :: default#beach-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [info] Resolving org.scala-sbt#global-plugins;0.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#global-plugins;0.0 {compile=[default(compile)]}
 [debug] 	found org.scala-sbt#global-plugins;0.0 in inter-project
@@ -36,28 +36,16 @@
 [debug] == resolving dependencies org.scala-sbt#global-plugins;0.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(*)]}
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.7.2 [compile->default(compile)]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.7.2 [compile->default(compile)]
 [info] Resolving io.spray#sbt-revolver;0.7.2 ...
 [debug] sbt-chain: Checking cache for: dependency: io.spray#sbt-revolver;0.7.2 {compile=[default(compile)]}
-[info] Resolving io.spray#sbt-revolver;0.7.2 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: io.spray#sbt-revolver;0.7.2 {compile=[default(compile)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.2/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.2/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for io.spray#sbt-revolver;0.7.2
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.2/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: found md file for io.spray#sbt-revolver;0.7.2
-[debug] 		=> https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.2/ivys/ivy.xml (0.7.2)
-[debug] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.2/ivys/ivy.xml ...
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.2/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.2/ivys/ivy.xml.sha1
-[debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.2/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] io.spray#sbt-revolver;0.7.2!ivy.xml(ivy.original) (1503ms)
-[debug] 	found io.spray#sbt-revolver;0.7.2 in sbt-plugin-releases
+[debug] sbt-chain: module revision found in cache: io.spray#sbt-revolver;0.7.2
+[debug] 	found io.spray#sbt-revolver;0.7.2 in sbt-chain
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#global-plugins;0.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#global-plugins;0.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#global-plugins;0.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile]
@@ -75,13 +63,13 @@
 [debug] == resolving dependencies org.scala-sbt#global-plugins;0.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(*)]}
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.7.2 [compile->default(compile)]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.7.2 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#global-plugins;0.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#global-plugins;0.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#global-plugins;0.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile]
@@ -99,20 +87,20 @@
 [debug] == resolving dependencies org.scala-sbt#global-plugins;0.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(*)]}
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.7.2 [compile->default(compile)]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.7.2 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@558c224a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48378a30
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.8 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.8
@@ -798,11 +786,11 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#global-plugins;0.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#global-plugins;0.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#global-plugins;0.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile]
@@ -820,15 +808,15 @@
 [debug] == resolving dependencies org.scala-sbt#global-plugins;0.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(*)]}
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.7.2 [compile->default(compile)]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.7.2 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile]
@@ -1291,10 +1279,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#global-plugins;0.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#global-plugins;0.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#global-plugins;0.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile]
@@ -1312,15 +1300,15 @@
 [debug] == resolving dependencies org.scala-sbt#global-plugins;0.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(*)]}
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.7.2 [compile->default(compile)]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.7.2 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#global-plugins;0.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#global-plugins;0.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#global-plugins;0.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile]
@@ -1338,15 +1326,15 @@
 [debug] == resolving dependencies org.scala-sbt#global-plugins;0.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(*)]}
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.7.2 [compile->default(compile)]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.7.2 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile]
@@ -1809,18 +1797,18 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#spray-template-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies for default#beach-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default]
@@ -1838,8 +1826,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(*)]
 [info] Resolving org.scala-lang#jline;2.10.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(*)]}
@@ -1852,19 +1840,14 @@
 [debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master]
-[debug] == resolving dependencies default#spray-template-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies default#beach-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.2/jars/sbt-revolver.jar
-[info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.2/jars/sbt-revolver.jar ...
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.2/jars/sbt-revolver.jar
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.2/jars/sbt-revolver.jar.sha1
-[debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.2/jars/sbt-revolver.jar
-[info] 	[SUCCESSFUL ] io.spray#sbt-revolver;0.7.2!sbt-revolver.jar (2152ms)
+[debug] 	[NOT REQUIRED] io.spray#sbt-revolver;0.7.2!sbt-revolver.jar
 [debug] 	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.6.0!sbt-idea.jar
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
@@ -1923,19 +1906,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 5350ms :: artifacts dl 2219ms
-[debug] 	report for default#spray-template-build;0.1-SNAPSHOT compile produced in /Users/galois/Workspace/github/spray-template/project/target/resolution-cache/reports/default-spray-template-build-compile.xml
-[debug] 	report for default#spray-template-build;0.1-SNAPSHOT runtime produced in /Users/galois/Workspace/github/spray-template/project/target/resolution-cache/reports/default-spray-template-build-runtime.xml
-[debug] 	report for default#spray-template-build;0.1-SNAPSHOT test produced in /Users/galois/Workspace/github/spray-template/project/target/resolution-cache/reports/default-spray-template-build-test.xml
-[debug] 	report for default#spray-template-build;0.1-SNAPSHOT provided produced in /Users/galois/Workspace/github/spray-template/project/target/resolution-cache/reports/default-spray-template-build-provided.xml
-[debug] 	report for default#spray-template-build;0.1-SNAPSHOT optional produced in /Users/galois/Workspace/github/spray-template/project/target/resolution-cache/reports/default-spray-template-build-optional.xml
-[debug] 	report for default#spray-template-build;0.1-SNAPSHOT compile-internal produced in /Users/galois/Workspace/github/spray-template/project/target/resolution-cache/reports/default-spray-template-build-compile-internal.xml
-[debug] 	report for default#spray-template-build;0.1-SNAPSHOT runtime-internal produced in /Users/galois/Workspace/github/spray-template/project/target/resolution-cache/reports/default-spray-template-build-runtime-internal.xml
-[debug] 	report for default#spray-template-build;0.1-SNAPSHOT test-internal produced in /Users/galois/Workspace/github/spray-template/project/target/resolution-cache/reports/default-spray-template-build-test-internal.xml
-[debug] 	report for default#spray-template-build;0.1-SNAPSHOT plugin produced in /Users/galois/Workspace/github/spray-template/project/target/resolution-cache/reports/default-spray-template-build-plugin.xml
-[debug] 	report for default#spray-template-build;0.1-SNAPSHOT sources produced in /Users/galois/Workspace/github/spray-template/project/target/resolution-cache/reports/default-spray-template-build-sources.xml
-[debug] 	report for default#spray-template-build;0.1-SNAPSHOT docs produced in /Users/galois/Workspace/github/spray-template/project/target/resolution-cache/reports/default-spray-template-build-docs.xml
-[debug] 	report for default#spray-template-build;0.1-SNAPSHOT pom produced in /Users/galois/Workspace/github/spray-template/project/target/resolution-cache/reports/default-spray-template-build-pom.xml
-[debug] 	report for default#spray-template-build;0.1-SNAPSHOT scala-tool produced in /Users/galois/Workspace/github/spray-template/project/target/resolution-cache/reports/default-spray-template-build-scala-tool.xml
-[debug] 	resolve done (5350ms resolve - 2219ms download)
+[debug] :: resolution report :: resolve 2827ms :: artifacts dl 93ms
+[debug] 	report for default#beach-build;0.1-SNAPSHOT compile produced in /Users/galois/Workspace/github/beach/project/target/resolution-cache/reports/default-beach-build-compile.xml
+[debug] 	report for default#beach-build;0.1-SNAPSHOT runtime produced in /Users/galois/Workspace/github/beach/project/target/resolution-cache/reports/default-beach-build-runtime.xml
+[debug] 	report for default#beach-build;0.1-SNAPSHOT test produced in /Users/galois/Workspace/github/beach/project/target/resolution-cache/reports/default-beach-build-test.xml
+[debug] 	report for default#beach-build;0.1-SNAPSHOT provided produced in /Users/galois/Workspace/github/beach/project/target/resolution-cache/reports/default-beach-build-provided.xml
+[debug] 	report for default#beach-build;0.1-SNAPSHOT optional produced in /Users/galois/Workspace/github/beach/project/target/resolution-cache/reports/default-beach-build-optional.xml
+[debug] 	report for default#beach-build;0.1-SNAPSHOT compile-internal produced in /Users/galois/Workspace/github/beach/project/target/resolution-cache/reports/default-beach-build-compile-internal.xml
+[debug] 	report for default#beach-build;0.1-SNAPSHOT runtime-internal produced in /Users/galois/Workspace/github/beach/project/target/resolution-cache/reports/default-beach-build-runtime-internal.xml
+[debug] 	report for default#beach-build;0.1-SNAPSHOT test-internal produced in /Users/galois/Workspace/github/beach/project/target/resolution-cache/reports/default-beach-build-test-internal.xml
+[debug] 	report for default#beach-build;0.1-SNAPSHOT plugin produced in /Users/galois/Workspace/github/beach/project/target/resolution-cache/reports/default-beach-build-plugin.xml
+[debug] 	report for default#beach-build;0.1-SNAPSHOT sources produced in /Users/galois/Workspace/github/beach/project/target/resolution-cache/reports/default-beach-build-sources.xml
+[debug] 	report for default#beach-build;0.1-SNAPSHOT docs produced in /Users/galois/Workspace/github/beach/project/target/resolution-cache/reports/default-beach-build-docs.xml
+[debug] 	report for default#beach-build;0.1-SNAPSHOT pom produced in /Users/galois/Workspace/github/beach/project/target/resolution-cache/reports/default-beach-build-pom.xml
+[debug] 	report for default#beach-build;0.1-SNAPSHOT scala-tool produced in /Users/galois/Workspace/github/beach/project/target/resolution-cache/reports/default-beach-build-scala-tool.xml
+[debug] 	resolve done (2827ms resolve - 93ms download)
 [info] Done updating.

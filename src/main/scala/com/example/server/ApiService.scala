@@ -93,8 +93,6 @@ trait ApiPrivateService extends HttpService {
     }
 }
 
-
-
 trait ApiPublicService extends HttpService {
   var plentyOfBuoy = Buoy.sensors
 
@@ -107,6 +105,22 @@ trait ApiPublicService extends HttpService {
       getJson2 {
         complete {
           Buoy.toJson(plentyOfBuoy)
+        }
+      }
+    } ~
+    path("buoy" / "stats") {
+      parameters("field"?, "lim".as[Int]?) { (field, lim) =>
+        val limit = lim.getOrElse(10)
+        getJson2 {
+          complete {
+            field.getOrElse("wvht") match {
+              case "wvht" => Buoy.toJson(plentyOfBuoy(0).wvht.take(limit))
+              case "dpd"  => Buoy.toJson(plentyOfBuoy(0).dpd.take(limit))
+              case "apd"  => Buoy.toJson(plentyOfBuoy(0).apd.take(limit))
+              case "mwd"  => Buoy.toJson(plentyOfBuoy(0).mwd.take(limit))
+              case "wtmp" => Buoy.toJson(plentyOfBuoy(0).wtmp.take(limit))
+            }
+          }
         }
       }
     }

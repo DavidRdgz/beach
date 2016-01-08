@@ -34,4 +34,7 @@ object Buoy {
   private implicit val formats = Serialization.formats(ShortTypeHints(List(classOf[NewBuoy])))
   def toJson(sensors: List[Buoy]): String = writePretty(sensors)
   def toJson(sensor: Buoy): String = writePretty(sensor)
+  def toJson(sensor: Array[Double]): String = writePretty(sensor)
+  def toJson(sensor: Array[Int]): String = writePretty(sensor)
+  def toJson(sensor: Array[String]): String = writePretty(sensor)
 }
